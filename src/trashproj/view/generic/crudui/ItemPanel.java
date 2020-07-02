@@ -9,6 +9,7 @@ import javax.swing.border.EtchedBorder;
 public class ItemPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 
+		protected JLabel iteminfo;
 	/**
 	 * Create the panel.
 	 */
@@ -16,7 +17,7 @@ public class ItemPanel extends JPanel {
 		setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
 		setLayout(null);
 		
-		JLabel iteminfo = new JLabel("info item");
+		this.iteminfo = new JLabel("info item");
 		iteminfo.setBounds(10, 11, 321, 48);
 		iteminfo.setVerticalAlignment(SwingConstants.TOP);
 		iteminfo.setHorizontalAlignment(SwingConstants.LEFT);
