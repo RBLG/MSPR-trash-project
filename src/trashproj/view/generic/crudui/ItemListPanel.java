@@ -33,4 +33,9 @@ public class ItemListPanel extends JPanel {
 		panel.add(item);
 
 	}
+	
+	//TODO
+	public void loadList() {
+		
+	}
 }
