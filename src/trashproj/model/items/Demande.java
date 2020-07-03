@@ -1,5 +1,5 @@
 package trashproj.model.items;
 
-public class Demande {
+public class Demande extends Item {
 
 }
